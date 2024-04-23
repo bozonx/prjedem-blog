@@ -8,38 +8,11 @@ export default {
   themeConfig: {
     siteTitle: 'Проект Эдем',
     returnToTopLabel: 'Наверх',
-    sidebarMenuLabel: 'Меню',
+    sidebarmenulabel: 'Меню',
     darkModeSwitchTitle: 'Переключиться на тёмную тему',
     lightModeSwitchTitle: 'Переключиться на светлую тему',
-    outline: {
-      label: 'На этой странице',
-    },
-    footer: {
-      message: 'Копирование разрешено только со ссылкой на источник',
-      copyright: 'Copyright © 2024-present Project Eden'
-    },
-    lastUpdated: {
-      text: 'Последнее обновление',
-      ...commonParams.lastUpdated,
-    },
-    nav: [
-      { text: 'Донат', link: '/ru/donate' },
-      { text: 'Блог', link: commonParams.siteUrl },
-      { text: 'Мы в соц сетях', link: '/ru/links' },
-      { text: 'О нас', link: '/ru/about' },
-    ],
-    sidebar: [
-      {
-        text: 'Блог',
-        items: [
-          { text: 'Тэги', link: '/ru/alltags' },
-        ]
-      },
-    ],
     ui: {
       home: 'Главная',
-      //donate: 'Донат',
-      toTheTop: 'Наверх',
       footer: {
         text: 'Копирование разрешено только со ссылкой на источник',
         copyright: 'Copyright © 2024-present Project Eden',
@@ -49,26 +22,32 @@ export default {
       },
       topBar: {
         links: [
-          { text: 'Гид по проекту', href: '/ru/guide' },
+          { text: 'Донат', href: '/ru/donate', icon: 'fa6-solid:heart'},
+          { text: 'Гид по проекту', href: commonParams.siteUrl },
+          { text: 'Мы в соц сетях', href: '/ru/links' },
+          { text: 'О нас', href: '/ru/about' },
         ],
         socialLinks: [
-          { href: '/ru/donate', icon: 'fa6-brands:github-alt'},
+          { href: 'https://github.com/bozonx/prjedem-blog', icon: 'fa6-brands:github-alt'},
         ],
-        specialLinks: [
+        mobileLinks: [
           { text: 'Донат', href: '/ru/donate', icon: 'fa6-solid:heart'},
         ],
       },
       sideBar: {
         topLinks: [
-          { text: 'На главную', href: '/ru/', icon: 'fa6-solid:house-chimney'},
+          { text: 'На главную', href: '/ru/', icon: 'fa6-solid:house'},
+          { text: 'По датам', href: '/ru/recent', icon: 'fa6-solid:calendar-days'},
         ],
         bottomLinks: [
+          { text: 'Донат', href: '/ru/donate', icon: 'fa6-solid:heart', mobile: true},
+          { text: 'Мы в соц сетях', href: '/ru/links', mobile: true },
+          { text: 'О нас', href: '/ru/about', mobile: true },
           { header: 'Ссылки' },
-          { text: 'Наш Telegram канал', href: '/ru/donate', icon: 'fa6-solid:heart'},
-          { text: 'Донат', href: '/ru/donate', icon: 'fa6-solid:heart'},
-        ],
-        mobileFooter: [
-          { text: 'Гид по проекту', href: '/ru/guide' },
+          { text: 'Гид по проекту', href: '/ru/guide', mobile: true },
+          { text: 'Наш Youtube канал', href: '/ru/donate', icon: 'fa6-brands:youtube'},
+          { text: 'Наш Telegram канал', href: '/ru/donate', icon: 'fa6-brands:telegram'},
+          { text: 'Наш чат в Telegram', href: '/ru/donate', icon: 'fa6-solid:message'},
         ],
       },
     },
