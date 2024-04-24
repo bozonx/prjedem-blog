@@ -11,8 +11,17 @@ export default {
     sidebarmenulabel: 'Меню',
     darkModeSwitchTitle: 'Переключиться на тёмную тему',
     lightModeSwitchTitle: 'Переключиться на светлую тему',
+    authors: [
+      { id: 'some-auth', name: 'Some Author', link: 'https://example.com' },
+    ],
     ui: {
       home: 'Главная',
+      author: 'Автор',
+      donateCall: 'Если вам нравится наш проект поддержите его пожалуйста финансово. [Пожертвовать](/ru/donate).',
+      commentCall: 'Комментировать в Telegram канале',
+      tagsBaseUrl: '/ru/tags',
+      allTagsCall: 'Смотреть все тэги',
+      postYoutubeButton: 'Смотреть видео',
       footer: {
         text: 'Копирование разрешено только со ссылкой на источник',
         copyright: 'Copyright © 2024-present Project Eden',
