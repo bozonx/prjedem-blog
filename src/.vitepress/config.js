@@ -34,12 +34,7 @@ export default {
 
   themeConfig: {
     i18nRouting: true,
-    docFooter: false,
-    //logo: '/logo.svg',
-    //aside: false,
     externalLinkIcon: true,
-    // socialLinks: [
-    //   { icon: 'github', link: 'https://github.com/bozonx/prjedem-blog' },
-    // ],
+    tagsBaseUrl: '/tags',
   }
 }
