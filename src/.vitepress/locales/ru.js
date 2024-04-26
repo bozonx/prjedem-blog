@@ -17,6 +17,7 @@ export default {
     allTagsCall: 'Смотреть все тэги',
     postYoutubeButton: 'Смотреть видео',
     aboutUs: 'О нас',
+    aboutBlog: 'Об этом блоге',
     donate: 'Донат',
     projectSite: 'Сайт проекта',
     weInSocialMedia: 'Мы в соц сетях',
