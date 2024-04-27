@@ -1,9 +1,10 @@
-import Theme from 'vitepress-sls-blog-tmpl'
+//import Theme from 'vitepress-sls-blog-tmpl'
+import Layout from './Layout.vue'
 import './tailwind.css'
 
 export default {
-  extends: Theme,
-  enhanceApp(ctx) {
-  }
+  //extends: Theme,
+  Layout,
+  //enhanceApp(ctx) {}
 }
 

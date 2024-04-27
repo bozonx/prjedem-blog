@@ -1,6 +1,5 @@
 .temp
 .cache
-.prebuild
 */.vitepress/cache
 */.vitepress/dist
 /docs
