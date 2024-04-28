@@ -43,8 +43,8 @@ export function makeCommonTheme(t, lang) {
         sideBar: {
           topLinks: [
             { text: t.links.home, href: '/', icon: 'fa6-solid:house'},
-            { text: t.links.recent, href: '/recent/1', icon: 'fa6-solid:calendar-days'},
-            { text: t.links.byYears, href: '/archive', icon: 'fa6-solid:calendar-days'},
+            { text: t.links.recent, href: '/recent/1', icon: 'fa6-solid:newspaper'},
+            { text: t.links.byDate, href: '/archive', icon: 'fa6-solid:calendar-days'},
           ],
           bottomLinks: [
             { text: t.links.donate, href: `${commonParams.siteUrl}/${lang}/donate`, icon: commonParams.donateIcon, mobile: true},

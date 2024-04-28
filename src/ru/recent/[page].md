@@ -8,13 +8,13 @@ import { useData } from 'vitepress'
 import { data } from '../loadPosts.data.js'
 import { commonParams } from '../../.vitepress/commonParams.js'
 
-const { params, localeIndex } = useData()
+const { theme, params, localeIndex } = useData()
 const curPage = Number(params.value.page)
 const sorted = data.posts.sort((a, b) => new Date(b.date) - new Date(a.date))
 </script>
 
 
-# page {{curPage}}
+# {{theme.t.allPosts}}
 
 <PreviewList
   :allData="sorted"

@@ -61,6 +61,7 @@ export default {
     i18nRouting: true,
     externalLinkIcon: false,
     tagsBaseUrl: '/tag',
+    allTagsUrl: '/tags',
   },
 
   // async buildEnd(siteConfig) {

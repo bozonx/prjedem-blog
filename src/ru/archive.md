@@ -3,14 +3,14 @@ type: util
 ---
 
 <script setup>
-import { data } from './archive.data.js'
+import Years from 'vitepress-sls-blog-tmpl/src/components/list/Years.vue'
+import { useData } from 'vitepress'
+import { data } from './loadPosts.data.js'
+
+const { theme } = useData()
 </script>
 
-# archive
+# {{theme.t.links.byDate}} 
 
-<pre>{{data}}</pre>
-
-<ul>
-<li v-for="year of data.years"><a :href="`/ru/archive/${year}`">{{year}}</a></li>
-</ul>
+<Years :allPosts="data.posts" />
 

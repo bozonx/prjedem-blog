@@ -3,11 +3,14 @@ type: util
 ---
 
 <script setup>
-import { data } from './loadPosts.data.js'
+import { useData } from 'vitepress'
 import AllTagsList from 'vitepress-sls-blog-tmpl/src/components/list/AllTagsList.vue'
+import { data } from './loadPosts.data.js'
+
+const { theme } = useData()
 </script>
 
-# Tags 
+# {{theme.t.links.allTags}} 
 
 <AllTagsList :allPosts="data.posts" />
 

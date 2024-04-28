@@ -1,28 +1,29 @@
 ---
 type: util
-metaDescr: aaa
 ---
 
-<!-- <script setup> -->
-<!-- import { data } from './recent.data.js' -->
-<!-- import PostPreviewItem from 'vitepress-sls-blog-tmpl/src/components/PostPreviewListItem.vue' -->
-<!-- import PostList from 'vitepress-sls-blog-tmpl/src/components/PostList.vue' -->
-<!---->
-<!-- const res = { -->
-<!--   result: data, -->
-<!-- } -->
-<!-- </script> -->
+<script setup>
+import PreviewList from 'vitepress-sls-blog-tmpl/src/components/list/PreviewList.vue'
+import { useData } from 'vitepress'
+import { data } from './loadPosts.data.js'
+import { commonParams } from '../.vitepress/commonParams.js'
+
+const { theme, params, localeIndex } = useData()
+const curPage = 1
+const sorted = data.posts.sort((a, b) => new Date(b.date) - new Date(a.date))
+</script>
 
 
 
-# Последние
+О проекте
 
+## Последние записи
 
-<!-- <pre>{{ data }}</pre> -->
-<!---->
-<!-- <PostList :data="res" /> -->
+<PreviewList
+  :allData="sorted"
+  :curPage="curPage"
+  :perPage="commonParams.perPage"
+/>
 
-<!-- <div v-for="post in data">
-  <PostPreviewItem :data="post" />
-</div> -->
+<a href="/ru/recent/2">Далее</a>
 
