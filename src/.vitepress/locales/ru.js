@@ -15,6 +15,8 @@ export default {
   tags: 'Тэги',
   year: 'Год',
   allPosts: 'Все посты',
+  notFound: '404: Нет такой страницы',
+  returnToHome: 'Вернуться на главную',
   months: [
     'Январь',
     'Февраль',

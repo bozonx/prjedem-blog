@@ -7,6 +7,8 @@ import fs from 'fs'
 //   generateTagsPages,
 // } from 'vitepress-sls-blog-tmpl/src/helpers/generators.js'
 import { DEFAULT_ENCODE } from 'vitepress-sls-blog-tmpl/src/constants.js'
+import {removeH1Plugin} from 'vitepress-sls-blog-tmpl/src/helpers/mdit-remove-h1.js'
+//import {extractPreviewTextPlugin} from 'vitepress-sls-blog-tmpl/src/helpers/mdit-extract-preview-text.js'
 import en from './locales/en'
 import ru from './locales/ru'
 import { makeCommonTheme } from './commonParams.js'
@@ -73,12 +75,19 @@ export default {
   //   // и modules - vue модули списом
   //   console.log(222, context)
   // },
-  // transformPageData(pageData) {
-  //   // единственная которая работает в дев режиме
-  //   console.log(333, pageData)
-  // },
+
+  transformPageData(pageData, ctx) {
+    // единственная которая работает в дев режиме
+    //console.log(333, pageData)
+  },
   // transformHtml(code, id, context) {
   //   // code - то готовый html всей страницы целиком вместе с шаблоном
   //   console.log(444, id, context)
   // },
+  markdown: {
+    config: (md) => {
+      md.use(removeH1Plugin)
+      //md.use(extractPreviewTextPlugin)
+    }
+  },
 }
