@@ -62,8 +62,11 @@ export default {
   themeConfig: {
     i18nRouting: true,
     externalLinkIcon: false,
+    // show preview of article in article page at the top
+    showArticlePreview: true,
     tagsBaseUrl: '/tag',
     allTagsUrl: '/tags',
+    archiveBaseUrl: '/archive',
   },
 
   // async buildEnd(siteConfig) {
