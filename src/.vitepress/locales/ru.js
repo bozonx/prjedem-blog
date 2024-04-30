@@ -17,6 +17,7 @@ export default {
   allPosts: 'Все посты',
   notFound: '404: Нет такой страницы',
   returnToHome: 'Вернуться на главную',
+  showMorePosts: 'Далее',
   months: [
     'Январь',
     'Февраль',

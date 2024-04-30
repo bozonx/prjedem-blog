@@ -9,6 +9,8 @@ import { data } from '../loadPosts.data.js'
 import { commonParams } from '../../.vitepress/commonParams.js'
 
 const { theme, params } = useData()
+
+console.log(111, params)
 </script>
 
 

@@ -19,7 +19,7 @@ const { theme, params } = useData()
   :curPage="params.page"
   :perPage="commonParams.perPage"
   :paginationMaxItems="commonParams.paginationMaxItems"
-  :tagName="params.tag"
-  :tagSlug="params.name"
+  :tagName="params.name"
+  :tagSlug="params.slug"
 />
 
