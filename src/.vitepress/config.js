@@ -67,6 +67,7 @@ export default {
     tagsBaseUrl: '/tag',
     allTagsUrl: '/tags',
     archiveBaseUrl: '/archive',
+    recentBaseUrl: '/recent',
   },
 
   // async buildEnd(siteConfig) {
