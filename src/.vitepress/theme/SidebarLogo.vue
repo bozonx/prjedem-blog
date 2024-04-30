@@ -1,4 +1,4 @@
-cript>
+<script setup>
 import {page} from "$app/stores";
 import {t} from '$lib/store/t'
 
