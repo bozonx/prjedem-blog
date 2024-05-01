@@ -8,11 +8,11 @@ import { useData } from 'vitepress'
 import { data } from '../../loadPosts.data.js'
 import { commonParams } from '../../../.vitepress/commonParams.js'
 
-const { theme, params } = useData()
+const { theme, params, title, page } = useData()
 </script>
 
 
-# {{theme.t.tagPageHeader}}: {{params.tag}}
+# {{theme.t.tagPageHeader}}: {{params.name}}
 
 <TagPostsList
   :allData="data.posts"

@@ -8,7 +8,7 @@ import fs from 'fs'
 // } from 'vitepress-sls-blog-tmpl/src/helpers/generators.js'
 import { DEFAULT_ENCODE } from 'vitepress-sls-blog-tmpl/src/constants.js'
 import {removeH1Plugin} from 'vitepress-sls-blog-tmpl/src/helpers/mdit-remove-h1.js'
-//import {extractPreviewTextPlugin} from 'vitepress-sls-blog-tmpl/src/helpers/mdit-extract-preview-text.js'
+import { transformTitle } from 'vitepress-sls-blog-tmpl/src/helpers/transformTitle.js'
 import en from './locales/en'
 import ru from './locales/ru'
 import { makeCommonTheme } from './commonParams.js'
@@ -81,8 +81,8 @@ export default {
   // },
 
   transformPageData(pageData, ctx) {
+    transformTitle(pageData, ctx)
     // единственная которая работает в дев режиме
-    //console.log(333, pageData)
   },
   // transformHtml(code, id, context) {
   //   // code - то готовый html всей страницы целиком вместе с шаблоном
@@ -91,7 +91,6 @@ export default {
   markdown: {
     config: (md) => {
       md.use(removeH1Plugin)
-      //md.use(extractPreviewTextPlugin)
     }
   },
 }
