@@ -9,6 +9,7 @@ import fs from 'fs'
 import { DEFAULT_ENCODE } from 'vitepress-sls-blog-tmpl/src/constants.js'
 import {removeH1Plugin} from 'vitepress-sls-blog-tmpl/src/helpers/mdit-remove-h1.js'
 import { transformTitle } from 'vitepress-sls-blog-tmpl/src/helpers/transformTitle.js'
+import { includeAllPostPreview } from 'vitepress-sls-blog-tmpl/src/helpers/includeAllPostPreview.js'
 import en from './locales/en'
 import ru from './locales/ru'
 import { makeCommonTheme } from './commonParams.js'
@@ -82,6 +83,7 @@ export default {
 
   transformPageData(pageData, ctx) {
     transformTitle(pageData, ctx)
+    includeAllPostPreview(pageData, ctx)
     // единственная которая работает в дев режиме
   },
   // transformHtml(code, id, context) {

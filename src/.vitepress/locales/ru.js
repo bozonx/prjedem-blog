@@ -18,6 +18,8 @@ export default {
   notFound: '404: Нет такой страницы',
   returnToHome: 'Вернуться на главную',
   showMorePosts: 'Далее',
+  paginationToStart: 'На первую страницу',
+  paginationToEnd: 'На последнюю страницу',
   months: [
     'Январь',
     'Февраль',

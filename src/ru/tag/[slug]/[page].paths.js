@@ -4,8 +4,9 @@ import { makeTagsParams } from 'vitepress-sls-blog-tmpl/src/helpers/makeListPara
 import { commonParams } from '../../../.vitepress/commonParams.js'
 
 
-const lang = 'ru'
-const postsDirAbs = path.resolve(path.dirname(__filename), '../../../', lang, POSTS_DIR)
+const langDir = path.resolve(path.dirname(__filename), '../../')
+const postsDirAbs = path.join(langDir, POSTS_DIR)
+const lang = path.basename(langDir) 
 
 
 export default {
