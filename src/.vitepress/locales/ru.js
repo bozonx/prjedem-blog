@@ -46,7 +46,6 @@ export default {
     projectSite: 'Сайт проекта',
     weInSocialMedia: 'Мы в соц сетях',
     recent: 'Самые свежие',
-    //byYears: 'По годам',
     byDate: 'По датам',
     links: 'Ссылки',
     ourYoutubeChannel: 'Наш Youtube канал',
