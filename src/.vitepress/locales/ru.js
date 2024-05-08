@@ -1,6 +1,14 @@
 export default {
   socialMediaShares: 'telegram,vkontakte,twitter,whatsapp,messenger',
+  authors: {
+    'ivan-k': { name: 'Айван Кей', link: 'https://t.me/ivan_k_8/16' },
+  },
+  footer: {
+    text: 'Копирование разрешено только со ссылкой на источник',
+    copyright: 'Copyright © 2024-present Project Eden',
+  },
   label: 'Русский',
+
   title: 'Проект Эдем',
   siteTitle: 'Проект Эдем',
   description: 'Проект Эдем это анархисткая коммуна в Аргентине',
@@ -51,13 +59,6 @@ export default {
     ourYoutubeChannel: 'Наш Youtube канал',
     ourTelegramChannel: 'Наш Telegram канал',
     ourTelegramChat: 'Наш чат в Telegram',
-  },
-  authors: {
-    'ivan-k': { name: 'Айван Кей', link: 'https://t.me/ivan_k_8/16' },
-  },
-  footer: {
-    text: 'Копирование разрешено только со ссылкой на источник',
-    copyright: 'Copyright © 2024-present Project Eden',
   },
 }
 
