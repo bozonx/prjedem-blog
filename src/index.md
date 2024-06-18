@@ -1,3 +1,7 @@
+---
+layout: false
+---
+
 <script setup>
 import { useData, inBrowser } from 'vitepress'
 import { watchEffect } from 'vue'

@@ -1,9 +1,10 @@
 ---
 type: article
-previewText: sdf
+pubDate: 2023-06-18
+authorId: some-auth
+description: sdf
 #titleReplace: replace h1
 # metaDescr: sdf
-authorId: some-auth
 commentUrl: https://t.me/slsfreedom/284
 tags:
   - created
@@ -12,4 +13,3 @@ tags:
 # dddddd
 
 other content
-
