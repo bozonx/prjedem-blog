@@ -12,6 +12,7 @@ export default defineConfig({
   //head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   //head: [['link', {rel: 'stylesheet', href: '/tailwind.css'}]],
   head: [
+    // yandex social shares
     ["script", { src: "https://yastatic.net/share2/share.js" }],
     // [
     //   "script",
