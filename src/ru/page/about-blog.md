@@ -1,7 +1,6 @@
 ---
 layout: page
 description: ssss
-pubdate: 2024-05-02T21:14:26.164Z
 title: О блоге нах
 ---
 

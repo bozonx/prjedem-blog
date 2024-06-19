@@ -1,5 +1,5 @@
 import path from "path";
-import { makePreviewItem } from "vitepress-sls-blog-tmpl/src/helpers/parseMdFile.js";
+import { makePreviewItem } from "vitepress-sls-blog-tmpl/src/helpers/makePreviewItem.js";
 import { POSTS_DIR } from "vitepress-sls-blog-tmpl/src/constants.js";
 
 export default {

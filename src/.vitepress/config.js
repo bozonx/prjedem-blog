@@ -13,10 +13,10 @@ export default defineConfig({
   //head: [['link', {rel: 'stylesheet', href: '/tailwind.css'}]],
   head: [
     ["script", { src: "https://yastatic.net/share2/share.js" }],
-    [
-      "script",
-      { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" },
-    ],
+    // [
+    //   "script",
+    //   { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" },
+    // ],
   ],
   outDir: "../docs",
   cacheDir: "../.cache",
@@ -24,7 +24,7 @@ export default defineConfig({
   cleanUrls: true,
   lang: "en-US",
   sitemap: {
-    hostname: "https://example.com",
+    hostname: "https://blog.prjedem.org",
   },
   locales: {
     root: {
