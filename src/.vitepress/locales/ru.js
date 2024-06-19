@@ -51,7 +51,7 @@ export default {
     commentCall: "Комментировать в Telegram канале",
     allTagsCall: "Смотреть все тэги",
     allTags: "Все тэги",
-    postYoutubeButton: "Смотреть видео",
+    postVideoButton: "Смотреть видео",
     aboutUs: "О нас",
     aboutBlog: "Об этом блоге",
     donate: "Донат",

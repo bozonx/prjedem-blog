@@ -1,5 +1,5 @@
 ---
-type: util
+layout: page
 ---
 
 <script setup>
@@ -11,7 +11,6 @@ import { commonParams } from '../../../.vitepress/themeLocaleconfig.js'
 const { theme, params, title, page } = useData()
 </script>
 
-
 # {{theme.t.tagPageHeader}}: {{params.name}}
 
 <TagPostsList
@@ -22,4 +21,3 @@ const { theme, params, title, page } = useData()
   :tagName="params.name"
   :tagSlug="params.slug"
 />
-

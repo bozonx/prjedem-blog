@@ -1,5 +1,4 @@
 ---
-type: article
 pubDate: 2023-06-18
 authorId: some-auth
 description: sdf

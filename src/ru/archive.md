@@ -1,5 +1,5 @@
 ---
-type: util
+layout: page
 ---
 
 <script setup>
@@ -10,7 +10,6 @@ import { data } from './loadPosts.data.js'
 const { theme } = useData()
 </script>
 
-# {{theme.t.links.byDate}} 
+# {{theme.t.links.byDate}}
 
 <Years :allPosts="data.posts" />
-

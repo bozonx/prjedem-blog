@@ -1,5 +1,5 @@
 ---
-type: util
+layout: page
 ---
 
 <script setup>
@@ -13,4 +13,3 @@ const { theme, params } = useData()
 # {{params.year}} {{theme.t.year}}
 
 <MonthsOfYear :allPosts="data.posts" :year="params.year" />
-
