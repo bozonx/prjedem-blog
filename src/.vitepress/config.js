@@ -23,7 +23,7 @@ export default defineConfig({
   cacheDir: "../.cache",
   metaChunk: true,
   cleanUrls: true,
-  // lang: "en-US",
+  lang: "en-US",
   sitemap: {
     hostname: "https://example.com",
   },
@@ -42,7 +42,7 @@ export default defineConfig({
   },
   themeConfig: {
     i18nRouting: true,
-    externalLinkIcon: false,
+    externalLinkIcon: true,
     // show preview of article in article page at the top
     showArticlePreview: true,
     // if previewText is not set then get it from description
