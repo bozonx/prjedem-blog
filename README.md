@@ -2,7 +2,7 @@
 
 ## Run
 
-Use node version: 18
+Use node version: 18 or greater
 
 - Install dependencies:
 
@@ -16,13 +16,8 @@ Use node version: 18
   yarn dev
   ```
 
-- Build:
+- Build and preview:
 
   ```bash
-  yarn build
-  yarn preview
-
-  # for /admin run
-  yarn decap
+  yarn build && yarn preview
   ```
-

@@ -1,5 +1,5 @@
 ---
-layout: page
+type: util
 ---
 
 <script setup>
@@ -19,3 +19,4 @@ const { theme, params } = useData()
   :perPage="commonParams.perPage"
   :paginationMaxItems="commonParams.paginationMaxItems"
 />
+

@@ -27,8 +27,6 @@ export default {
   tags: "Тэги",
   year: "Год",
   allPosts: "Все посты",
-  notFound: "404: Нет такой страницы",
-  returnToHome: "Вернуться на главную",
   showMorePosts: "Ещё",
   paginationToStart: "На первую страницу",
   paginationToEnd: "На последнюю страницу",

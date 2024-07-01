@@ -1,4 +1,3 @@
-import path from "path";
 import { makePreviewItem } from "vitepress-sls-blog-tmpl/src/helpers/makePreviewItem.js";
 import { POSTS_DIR } from "vitepress-sls-blog-tmpl/src/constants.js";
 

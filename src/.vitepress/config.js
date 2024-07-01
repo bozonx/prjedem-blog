@@ -24,6 +24,7 @@ export default defineConfig({
   metaChunk: true,
   cleanUrls: true,
   lang: "en-US",
+  lastUpdated: true,
   sitemap: {
     hostname: "https://blog.prjedem.org",
   },
@@ -56,4 +57,11 @@ export default defineConfig({
       md.use(removeH1Plugin);
     },
   },
+  // vite: {
+  //   build: {
+  //     rollupOptions: {
+  //       plugins: [nodeResolve()],
+  //     },
+  //   },
+  // },
 });
