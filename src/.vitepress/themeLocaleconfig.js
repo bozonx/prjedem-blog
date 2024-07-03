@@ -39,6 +39,10 @@ export function makeCommonTheme(t, lang) {
               text: t.links.aboutUs,
               href: `${commonParams.siteUrl}/${lang}/page/about`,
             },
+            // {
+            //   text: "tsdfsdf",
+            //   href: `/page/about-blog`,
+            // },
           ],
           socialLinks: [
             {
