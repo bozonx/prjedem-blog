@@ -1,7 +1,4 @@
 import { defineConfig } from "vitepress";
-// import path from "path";
-// import fs from "fs";
-// import { DEFAULT_ENCODE } from "vitepress-sls-blog-tmpl/src/constants.js";
 import { removeH1Plugin } from "vitepress-sls-blog-tmpl/src/helpers/mdit-remove-h1.js";
 import { transformTitle } from "vitepress-sls-blog-tmpl/src/helpers/transformTitle.js";
 import { makeCommonTheme } from "./themeLocaleconfig.js";

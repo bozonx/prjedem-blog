@@ -1612,10 +1612,10 @@ vite@^5.2.12:
   optionalDependencies:
     fsevents "~2.3.3"
 
-vitepress-sls-blog-tmpl@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/vitepress-sls-blog-tmpl/-/vitepress-sls-blog-tmpl-0.1.0.tgz#cfbf1c2677a03b419fda5c77ca912f9a8ac3cbd7"
-  integrity sha512-XsyxB1zuR0CsdYkHVDLa8Cy73WpZffRiWyfIx+XI7NZkjeydEbPnnADym/xix6t4Mt7jIaXU1HDtGgILeU5oLA==
+vitepress-sls-blog-tmpl@*:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/vitepress-sls-blog-tmpl/-/vitepress-sls-blog-tmpl-0.2.0.tgz#708d9520061a3eef945ce579bd81456512b1303b"
+  integrity sha512-fhB/WjqUzvO0NbWNuFGCxoLdvRK+02X1imqlE4Ueu6kW62BaU7gaftw8PtMUSisqsc8meaN46TI4CWXQEjOhPQ==
   dependencies:
     "@iconify/vue" "^4.1.2"
     autoprefixer "^10.4.19"
