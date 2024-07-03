@@ -14,8 +14,6 @@ export function makeCommonTheme(t, lang) {
     themeConfig: {
       t,
       siteTitle: t.siteTitle,
-      returnToTopLabel: t.returnToTopLabel,
-      sidebarMenuLabel: t.sidebarMenuLabel,
       darkModeSwitchTitle: t.darkModeSwitchTitle,
       lightModeSwitchTitle: t.lightModeSwitchTitle,
       authors: [{ id: "ivan-k", ...t.authors["ivan-k"] }],
