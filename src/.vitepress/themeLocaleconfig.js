@@ -76,6 +76,11 @@ export function makeCommonTheme(t, lang) {
               href: "/archive",
               icon: "fa6-solid:calendar-days",
             },
+            {
+              text: t.links.authors,
+              href: "/authors",
+              icon: "mdi:users",
+            },
           ],
           bottomLinks: [
             {

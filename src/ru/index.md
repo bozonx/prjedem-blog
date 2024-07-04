@@ -15,14 +15,9 @@ const { theme } = useData()
 </script>
 
 <HomeHero :firstLine="theme.t.heroFirstLine" :secondLine="theme.t.heroSecondLine" />
-
-## {{ theme.t.tags }}
-
-<HomePageTags :allData="data.posts" />
-
-## {{ theme.t.homeRecentHeader}}
-
+<HomePageTags :header="theme.t.tags" :allData="data.posts" />
 <HomePageRecent
+  :header="theme.t.homeRecentHeader"
   :allData="data.posts"
   :perPage="commonParams.perPage"
 />
