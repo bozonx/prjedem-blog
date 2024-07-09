@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: util
 ---
 
 <script setup>

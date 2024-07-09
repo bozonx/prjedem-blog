@@ -16,8 +16,9 @@ Use node version: 18 or greater
   yarn dev
   ```
 
-- Build and preview:
+- Admin build and preview:
 
   ```bash
+  yarn admin
   yarn build && yarn preview
   ```

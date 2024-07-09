@@ -8,10 +8,13 @@ export default {
   heroFirstLine: "Блог Проекта Эдем",
   heroSecondLine: "Анархисткие коммуны",
   authors: {
-    "ivan-k": { name: "Айван Кей", link: "https://t.me/ivan_k_8/16" },
+    "ivan-k": {
+      name: "Айван Кей",
+      descr: `Чёткий автор.\n\n[подробней](https://t.me/ivan_k_8/16)`,
+    },
   },
   footer: {
-    text: "Копирование разрешено только со ссылкой на источник",
+    text: "Копирование разрешено только со ссылкой на источник.",
     copyright: "Copyright © 2024-present Project Eden",
   },
 };

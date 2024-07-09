@@ -16,10 +16,11 @@ export function makeCommonTheme(t, lang) {
       siteTitle: t.siteTitle,
       darkModeSwitchTitle: t.darkModeSwitchTitle,
       lightModeSwitchTitle: t.lightModeSwitchTitle,
+      langMenuLabel: t.langMenuLabel,
       authors: [{ id: "ivan-k", ...t.authors["ivan-k"] }],
       ui: {
         donateLink: `${commonParams.siteUrl}/${lang}/donate`,
-        footerLinks: [{ text: t.links.aboutBlog, href: `/page/about-blog` }],
+        footerLinks: [{ text: t.links.aboutBlog, href: `page/about-blog` }],
         topBar: {
           links: [
             {
@@ -63,22 +64,22 @@ export function makeCommonTheme(t, lang) {
             { text: t.links.home, href: "/", icon: "fa6-solid:house" },
             {
               text: t.links.recent,
-              href: "/recent/1",
+              href: "recent/1",
               icon: "fa6-solid:newspaper",
             },
             {
               text: t.tags,
-              href: "/tags",
+              href: "tags",
               icon: "fa6-solid:tag",
             },
             {
               text: t.links.byDate,
-              href: "/archive",
+              href: "archive",
               icon: "fa6-solid:calendar-days",
             },
             {
               text: t.links.authors,
-              href: "/authors",
+              href: "authors",
               icon: "mdi:users",
             },
           ],

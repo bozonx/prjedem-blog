@@ -42,6 +42,6 @@ sdf
 sdf
 ```
 
-![]()
+[ya.ru](https://yai.ru)
 
 ![](/img/2023-12-10_09-33.png)

@@ -1,11 +1,12 @@
-import { defineConfig } from "vitepress";
 import blogConfigBase from "vitepress-sls-blog-tmpl/src/configs/blogConfigBase.js";
 import { makeCommonTheme } from "./themeLocaleconfig.js";
 import en from "./locales/en";
 import ru from "./locales/ru";
 
-export default defineConfig({
+export default {
   ...blogConfigBase,
+  title: en.title,
+  description: en.description,
   //head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   //head: [['link', {rel: 'stylesheet', href: '/tailwind.css'}]],
   head: [
@@ -31,4 +32,4 @@ export default defineConfig({
     },
   },
   themeConfig: blogConfigBase.themeConfig,
-});
+};

@@ -63,6 +63,16 @@ collections:
         widget: "text"
         required: false
         i18n: true
+      - label: "Replace text for preview for articles and list items"
+        name: "previewText"
+        widget: "text"
+        required: false
+        i18n: true
+      - label: "Use description as a preview (if not set previewText)"
+        name: "descrAsPreview"
+        widget: "boolean"
+        default: true
+        i18n: duplicate
       - label: "commentUrl"
         name: "commentUrl"
         widget: "string"
@@ -78,6 +88,61 @@ collections:
         widget: list
         required: false
         i18n: true
+        # {
+        #   "name": "tags",
+        #   "label": "Tags",
+        #   "widget": "relation",
+        #   "i18n": true,
+        #   "collection": "tags",
+        #   "multiple": true,
+        #   "value_field": "id",
+        #   "search_fields": [
+        #     "id"
+        #   ],
+        #   "display_fields": [
+        #     "languages.cs",
+        #     "languages.en"
+        #   ]
+        # },
+      # {
+      #      "name": "tags",
+      #      "label": "Tags",
+      #      "label_singular": "Tag",
+      #      "folder": "src/content/tags",
+      #      "identifier_field": "id",
+      #      "create": true,
+      #      "delete": true,
+      #      "i18n": false,
+      #      "slug": "{{id}}",
+      #      "extension": "json",
+      #      "fields": [
+      #        {
+      #          "name": "id",
+      #          "label": "Tag dentifier",
+      #          "widget": "string",
+      #          "i18n": "duplicate"
+      #        },
+      #        {
+      #          "name": "languages",
+      #          "label": "Translations",
+      #          "widget": "object",
+      #          "fields": [
+      #            {
+      #              "name": "cs",
+      #              "label": "Čeština - tag translation",
+      #              "widget": "string",
+      #              "i18n": false
+      #            },
+      #            {
+      #              "name": "en",
+      #              "label": "English - tag translation",
+      #              "widget": "string",
+      #              "i18n": false
+      #            }
+      #          ]
+      #        }
+      #      ]
+      #    }     #
       - name: authorId
         label: Author
         widget: select
