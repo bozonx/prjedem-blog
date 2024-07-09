@@ -32,14 +32,10 @@ export function makeCommonTheme(t, lang) {
               text: t.links.projectSite,
               href: `${commonParams.siteUrl}/${lang}/`,
             },
-            {
-              text: t.links.weInSocialMedia,
-              href: `${commonParams.siteUrl}/${lang}/page/links`,
-            },
-            {
-              text: t.links.aboutUs,
-              href: `${commonParams.siteUrl}/${lang}/page/about`,
-            },
+            // {
+            //   text: t.links.aboutUs,
+            //   href: `${commonParams.siteUrl}/${lang}/page/about`,
+            // },
             // {
             //   text: "tsdfsdf",
             //   href: `/page/about-blog`,
@@ -91,21 +87,21 @@ export function makeCommonTheme(t, lang) {
               mobile: true,
             },
             {
-              text: t.links.weInSocialMedia,
-              href: `${commonParams.siteUrl}/${lang}/page/links`,
-              mobile: true,
-            },
-            {
-              text: t.links.aboutUs,
-              href: `${commonParams.siteUrl}/${lang}/page/about`,
-              mobile: true,
-            },
-            { header: t.links.links },
-            {
               text: t.links.projectSite,
               href: `${commonParams.siteUrl}/${lang}/`,
               mobile: true,
             },
+            // {
+            //   text: t.links.weInSocialMedia,
+            //   href: `${commonParams.siteUrl}/${lang}/page/links`,
+            //   mobile: true,
+            // },
+            // {
+            //   text: t.links.aboutUs,
+            //   href: `${commonParams.siteUrl}/${lang}/page/about`,
+            //   mobile: true,
+            // },
+            { header: t.links.links },
             {
               text: t.links.ourYoutubeChannel,
               href: "https://www.youtube.com/@prjedem",
@@ -120,6 +116,10 @@ export function makeCommonTheme(t, lang) {
               text: t.links.ourTelegramChat,
               href: "https://t.me/prjedem_chat",
               icon: "fa6-solid:message",
+            },
+            {
+              text: t.links.weInSocialMedia,
+              href: `${commonParams.siteUrl}/${lang}/page/links`,
             },
           ],
         },
