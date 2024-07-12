@@ -1,19 +1,67 @@
 title: site
 body: |
-  title: "Движение Антифеминизм"
-  siteTitle: "Движение Антифем"
-  description: "Движение синтетический антифеминизм направлено на уравнивание прав и привелегий мужчин и женищин, соответсвенно на борьбу с феминизмом как источником неравноправия"
+  title: "Проект Эдем"
+  description: "Проект Эдем это анархисткая коммуна в Аргентине"
+
+  t:
+    donateLink: "${PROPS.siteUrl}/${PROPS.lang}/donate"
+
+  siteTitle: "Проект Эдем"
+  authors:
+    - id: "ivan-k"
+      name: "Айван Кей"
+      descr: "Чёткий автор.\n\n[подробней](https://t.me/ivan_k_8/16)"
   footer:
     message: "Копирование разрешено только со ссылкой на источник."
     copyright: "${PROPS.footerCopyright}"
-  nav:
-    - text: "❤️ Донат"
-      link: "/${PROPS.lang}/${PROPS.donateUrl}"
-    - text: "📖 Вики"
-      link: "${PROPS.lang}/${PROPS.docUrl}"
-    - text: "TG канал"
-      link: "${PROPS.blogUrl}"
-    #- text: "Мы в соц сетях"
-    #  link: "/${PROPS.lang}/${PROPS.linksUrl}"
-    - text: "О нас"
-      link: "/${PROPS.lang}/${PROPS.aboutUrl}"
+    links: [{ text: "${PROPS.t.links.aboutBlog}", href: "page/about-blog" }]
+  topBar:
+    links:
+      - text: "${PROPS.t.links.donate}"
+        href: "${PROPS.siteUrl}/${PROPS.lang}/page/donate"
+        icon: "${PROPS.donateIcon}"
+      - text: "${PROPS.t.links.projectSite}"
+        href: "${PROPS.siteUrl}/${PROPS.lang}/"
+    socialLinks:
+      - href: "${PROPS.repo}"
+        icon: "fa6-brands:github-alt"
+        title: "${PROPS.t.thisSiteOnGithub}"
+    mobileLinks:
+      - text: "${PROPS.t.links.donate}"
+        href: "${PROPS.siteUrl}/${PROPS.lang}/donate"
+        icon: "${PROPS.donateIcon}"
+  sideBar:
+    topLinks:
+      - { text: "${PROPS.t.links.home}", href: "/", icon: "fa6-solid:house" }
+      - text: "${PROPS.t.links.recent}"
+        href: "recent/1"
+        icon: "fa6-solid:newspaper"
+      - text: "${PROPS.t.tags}"
+        href: "tags"
+        icon: "fa6-solid:tag"
+      - text: "${PROPS.t.links.byDate}"
+        href: "archive"
+        icon: "fa6-solid:calendar-days"
+      - text: "${PROPS.t.links.authors}"
+        href: "authors"
+        icon: "mdi:users"
+    bottomLinks:
+      - text: "${PROPS.t.links.donate}"
+        href: "${PROPS.siteUrl}/${PROPS.lang}/page/donate"
+        icon: "${PROPS.donateIcon}"
+        mobile: true
+      - text: "${PROPS.t.links.projectSite}"
+        href: "${PROPS.siteUrl}/${PROPS.lang}/"
+        mobile: true
+      - { header: "${PROPS.t.links.links}" }
+      - text: "${PROPS.t.links.ourYoutubeChannel}"
+        href: "https://www.youtube.com/@prjedem"
+        icon: "fa6-brands:youtube"
+      - text: "${PROPS.t.links.ourTelegramChannel}"
+        href: "https://t.me/prjedem"
+        icon: "fa6-brands:telegram"
+      - text: "${PROPS.t.links.ourTelegramChat}"
+        href: "https://t.me/prjedem_chat"
+        icon: "fa6-solid:message"
+      - text: "${PROPS.t.links.weInSocialMedia}"
+        href: "${PROPS.siteUrl}/${PROPS.lang}/page/links"

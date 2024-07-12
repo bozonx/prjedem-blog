@@ -45,6 +45,7 @@ export function makeCommonTheme(t, lang) {
             {
               href: "https://github.com/bozonx/prjedem-blog",
               icon: "fa6-brands:github-alt",
+              title: t.thisSiteOnGithub,
             },
           ],
           mobileLinks: [
