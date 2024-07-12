@@ -15,6 +15,10 @@ body: |
     message: "Копирование разрешено только со ссылкой на источник."
     copyright: "${PROPS.footerCopyright}"
     links: [{ text: "${PROPS.t.links.aboutBlog}", href: "page/about-blog" }]
+  socialLinks:
+    - href: "${PROPS.repo}"
+      icon: "fa6-brands:github-alt"
+      title: "${PROPS.t.thisSiteOnGithub}"
   topBar:
     links:
       - text: "${PROPS.t.links.donate}"
@@ -22,10 +26,6 @@ body: |
         icon: "${PROPS.donateIcon}"
       - text: "${PROPS.t.links.projectSite}"
         href: "${PROPS.siteUrl}/${PROPS.lang}/"
-    socialLinks:
-      - href: "${PROPS.repo}"
-        icon: "fa6-brands:github-alt"
-        title: "${PROPS.t.thisSiteOnGithub}"
     mobileLinks:
       - text: "${PROPS.t.links.donate}"
         href: "${PROPS.siteUrl}/${PROPS.lang}/donate"

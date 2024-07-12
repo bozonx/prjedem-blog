@@ -13,13 +13,13 @@ import { PROPS } from "../.vitepress/props.js";
 
 const { theme } = useData()
 
-// // heroFirstLine: "Блог Проекта Эдем",
-// // heroSecondLine: "Анархисткие коммуны",
-// // heroFirstLine: "Eden Project blog",
-// // heroSecondLine: "Anarchist communes",
+const translations = {
+  heroFirstLine: "Блог Проекта Эдем",
+  heroSecondLine: "Анархисткие коммуны",
+}
 </script>
 
-<HomeHero :firstLine="theme.t.heroFirstLine" :secondLine="theme.t.heroSecondLine" />
+<HomeHero :firstLine="heroFirstLine" :secondLine="heroSecondLine" />
 <HomePageTags :header="theme.t.tags" :allData="data.posts" />
 <HomePageRecent
   :header="theme.t.homeRecentHeader"

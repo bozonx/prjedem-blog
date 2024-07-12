@@ -12,9 +12,14 @@ import { data } from './loadPosts.data.js'
 import { PROPS } from "../.vitepress/props.js";
 
 const { theme } = useData()
+
+const translations = {
+  heroFirstLine: "Eden Project blog",
+  heroSecondLine: "Anarchist communes",
+}
 </script>
 
-<HomeHero :firstLine="theme.t.heroFirstLine" :secondLine="theme.t.heroSecondLine" />
+<HomeHero :firstLine="heroFirstLine" :secondLine="heroSecondLine" />
 <HomePageTags :header="theme.t.tags" :allData="data.posts" />
 <HomePageRecent
   :header="theme.t.homeRecentHeader"

@@ -221,15 +221,15 @@ collections:
             modes: ["raw", "rich_text"]
             i18n: true
             # show_raw: true
-      # - name: index
-      #   label: Index
-      #   file: "src/{{locale}}/index.md"
-      #   preview_path: "{{locale}}"
-      #   i18n: true
-      #   fields:
-      #     - label: "Body"
-      #       name: "body"
-      #       widget: "markdown"
-      #       modes: ["raw", "rich_text"]
-      #       i18n: true
-      #       show_raw: true
+      - name: index
+        label: Index
+        file: "src/{{locale}}/index.md"
+        preview_path: "{{locale}}"
+        i18n: true
+        fields:
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
+            modes: ["raw", "rich_text"]
+            i18n: true
+            show_raw: true
