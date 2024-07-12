@@ -12,6 +12,11 @@ import { data } from './loadPosts.data.js'
 import { PROPS } from "../.vitepress/props.js";
 
 const { theme } = useData()
+
+// // heroFirstLine: "Блог Проекта Эдем",
+// // heroSecondLine: "Анархисткие коммуны",
+// // heroFirstLine: "Eden Project blog",
+// // heroSecondLine: "Anarchist communes",
 </script>
 
 <HomeHero :firstLine="theme.t.heroFirstLine" :secondLine="theme.t.heroSecondLine" />
