@@ -45,10 +45,10 @@ collections:
         widget: "string"
         preview: false
         i18n: true
-      - label: Publication date and hour UTC
+      - label: Publication date (your locale)
         name: pubDate
         widget: datetime
-        format: yyyy-MM-DDTHH
+        format: "yyyy-MM-DDTHH:mmZ"
         preview: false
         i18n: duplicate
       - label: "Description"
