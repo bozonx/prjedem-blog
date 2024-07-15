@@ -7,7 +7,7 @@ title: О блоге нах
 # О блоге
 
 asdf
-sdfsdf
+sdfsdf `ode` sdfsfd
 
 s﻿dfsdfsfd
 
