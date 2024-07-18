@@ -1,7 +1,6 @@
 ---
 layout: page
 description: ssss
-title: О блоге нах
 ---
 
 # О блоге
@@ -44,4 +43,4 @@ sdf
 
 [ya.ru](https://yai.ru)
 
-![](/img/2023-12-10_09-33.png)
+![](/media/2023-12-10_09-33.png)

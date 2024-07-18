@@ -7,6 +7,10 @@ backend:
 site_url: https://blog.prjedem.org
 media_folder: src/public/media
 public_folder: /media
+# media_library:
+#   name: default
+#   config:
+#     max_file_size: 512000
 slug:
   encoding: ascii
   clean_accents: true
@@ -29,8 +33,8 @@ collections:
     create: true
     summary: "{{title}} | {{commit_date}} | {{commit_author}} | {{filename}}.md"
     sortable_fields: ["pubDate", "title", "authorId"]
-    media_folder: src/public/media/{{slug}}
-    public_folder: /media/{{slug}}
+    # media_folder: src/public/media/{{slug}}
+    # public_folder: /media/{{slug}}
     # view_groups:
     #   default: by-year
     #   groups:
@@ -75,12 +79,21 @@ collections:
       - label: "Cover"
         name: "cover"
         widget: "image"
-        choose_url: true
+        # media_folder: src/public/media/{{slug}}
+        # public_folder: /media/{{slug}}
+        # choose_url: true
         required: false
         i18n: duplicate
-        # media_library:
-        #   config:
-        #     multiple: true
+      - label: "Description of cover image"
+        name: "coverDescr"
+        widget: "string"
+        required: false
+        i18n: true
+      - label: "Alt of cover image"
+        name: "coverAlt"
+        widget: "string"
+        required: false
+        i18n: true
       - label: "commentUrl"
         name: "commentUrl"
         widget: "string"
