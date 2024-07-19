@@ -1,27 +1,27 @@
 ---
-title: sdfs
+title: Экономика title
 pubDate: 2024-07-10T00:36-03:00
 description: Наша экономика смешанная, по большей части социалистическая, но так же будет и коммерческая часть. Для тех кто работает на коммуну многие товары и услуги будут бесплатны. Основу производства будут составлять кооперативы. Так же будет и ремесленничество и индивидуальное предпринимательство. Крипто-валюта будет платежным средством и выполнять роль банков, с её помощью можно делать вклады и брать займы. NFT токены будут представлять собственность на объекты недвижимости, автомобили и другие крупные товары.
 previewText: ""
 descrAsPreview: true
 commentUrl: https://t.me/slsfreedom/284
 videoLink: htts://example.com
-videoLinkLang: ""
+videoLinkLang: RU
 podcasts:
   castbox: https://castbox.fm/episode/id5519154-id627404987
   soundstream: https://soundstream.media/clip/kak-chelovek-popadayet-v-sistemu
   spotify: https://open.spotify.com/episode/7juzbcWD1l1wbvHJOCrUm7
   vk: https://vk.com/podcast-214911215_456239021
   yandexmusic: https://music.yandex.ru/album/26679261/track/116768416
-  site: https://slsfreedom.mave.digital/ep-10
-podcastLang: en
+podcastLang: EN
 authorId: ivan-k
 tags:
-  - Economics
-  - sdfsdf2
-  - "24234"
+  - sdfsdf
+  - sdfsdf
+  - Экономика
+  - sdfsdfkk
+  - sdfsdfsss
 ---
-# Экономика
 
 Экономика в коммунах проекта Эдем будет по большей части социалистическая, но так же будет возможность и частного предпринимательства. Душить предпринимательство мы не будем потому что это значит задушить экономику. У нас будут как кооперативы, так и частные компании и мы будем торговать с другими коммунами и с государством.
 

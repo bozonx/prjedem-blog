@@ -4,7 +4,7 @@ body: |
   description: "Eden Project is an anarchist commune in Argentina"
 
   t:
-    donateLink: "${PROPS.siteUrl}/${PROPS.lang}/donate"
+    donateLink: "${PROPS.siteUrl}/${PROPS.lang}/${PROPS.theme.donateUrl}"
 
   siteLogoAlt: "Blog of Eden Project"
 

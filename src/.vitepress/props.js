@@ -4,6 +4,6 @@ export const PROPS = {
   siteUrl: "https://prjedem.org",
   footerCopyright: "Copyright © 2024-present Project Edem.",
   docUrl: "doc/",
-  perPage: 2,
+  perPage: 10,
   paginationMaxItems: 7,
 };

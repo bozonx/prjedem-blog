@@ -1,7 +1,6 @@
 ---
 layout: page
 description: ssss
-title: О блоге нах
 ---
 
 # О блоге

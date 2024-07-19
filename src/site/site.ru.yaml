@@ -4,7 +4,7 @@ body: |
   description: "Проект Эдем это анархисткая коммуна в Аргентине"
 
   t:
-    donateLink: "${PROPS.siteUrl}/${PROPS.lang}/donate"
+    donateLink: "${PROPS.siteUrl}/${PROPS.lang}/${PROPS.theme.donateUrl}"
 
   siteLogoAlt: "Блог проекта Эдем"
 
