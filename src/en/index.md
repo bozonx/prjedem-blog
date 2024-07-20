@@ -14,7 +14,8 @@ const { theme, localeIndex } = useData()
 
 const hero = {
   firstLine: "Eden Project blog",
-  secondLine: "Anarchist communes",
+  secondLine: "News, events, show episodes",
+  img: "/img/home-logo.webp",
   buttons: [
     {
       text: "Go to blog",

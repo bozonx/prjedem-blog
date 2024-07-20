@@ -14,7 +14,8 @@ const { theme, localeIndex } = useData()
 
 const hero = {
   firstLine: "Блог Проекта Эдем",
-  secondLine: "Новости, события, выпуски шоу",
+  secondLine: "Новости, события, выпуски&nbsp;шоу",
+  img: "/img/home-logo.webp",
   buttons: [
     {
       text: "Перейти к блогу",
