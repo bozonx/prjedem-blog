@@ -1,7 +1,6 @@
 ---
 layout: home
 ---
-
 <script setup>
 import HomePageTags from 'vitepress-sls-blog-tmpl/HomePageTags.vue'
 import HomeHero from 'vitepress-sls-blog-tmpl/HomeHero.vue'
@@ -14,7 +13,7 @@ const { theme, localeIndex } = useData()
 
 const hero = {
   firstLine: "Eden Project blog",
-  secondLine: "News, events, show episodes",
+  secondLine: "News, events, show&nbsp;episodes",
   img: "/img/home-logo.webp",
   buttons: [
     {
