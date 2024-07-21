@@ -18,9 +18,14 @@ Use node version: 18 or greater
   yarn dev
   ```
 
-- Admin build and preview:
+  Go to `http://localhost:5173/`
+
+- Build and Preview
 
   ```bash
-  yarn admin
   yarn build && yarn preview
   ```
+
+  Go to `http://localhost:4173/`
+
+  Local admin panel is on `http://localhost:4173/admin/`
