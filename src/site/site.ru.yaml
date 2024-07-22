@@ -2,7 +2,7 @@ title: site
 body: |
   title: "Блог Проекта Эдем"
   description: "Проект Эдем это анархисткая коммуна в Аргентине"
-  siteLogoAlt: "Блог Проекта Эдем"
+  siteTitle: "Блог Проекта Эдем"
 
   authors:
     - id: "ivan-k"

@@ -2,7 +2,7 @@ title: site
 body: |
   title: "Blog of Eden Project"
   description: "Eden Project is an anarchist commune in Argentina"
-  siteLogoAlt: "Blog of Eden Project"
+  siteTitle: "Blog of Eden Project"
 
   authors:
     - id: "ivan-k"
