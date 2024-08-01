@@ -7,21 +7,20 @@ head:
 ---
 
 <script setup>
-import TagPostsList from 'vitepress-sls-blog-tmpl/TagPostsList.vue'
+import AuthorDetails from 'vitepress-sls-blog-tmpl/AuthorDetails.vue'
 import { useData } from 'vitepress'
 import { data } from '../../loadPosts.data.js'
 import { PROPS } from "../../../.vitepress/props.js";
 
-const { theme, params, title, page } = useData()
+const { theme, params } = useData()
 </script>
 
-# {{theme.t.tagPageHeader}}: {{params.name}}
+# {{theme.authors.find((item) => item.id === params.id)?.name}}
 
-<TagPostsList
-  :allData="data.posts"
+<AuthorDetails
+  :allPosts="data.posts"
+  :authorId="params.id"
   :curPage="params.page"
   :perPage="PROPS.perPage"
   :paginationMaxItems="PROPS.paginationMaxItems"
-  :tagName="params.name"
-  :tagSlug="params.slug"
 />

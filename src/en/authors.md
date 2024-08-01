@@ -7,13 +7,13 @@ head:
 ---
 
 <script setup>
+import Authors from 'vitepress-sls-blog-tmpl/Authors.vue'
 import { useData } from 'vitepress'
-import AllTagsList from 'vitepress-sls-blog-tmpl/AllTagsList.vue'
 import { data } from './loadPosts.data.js'
 
 const { theme } = useData()
 </script>
 
-# {{theme.t.allTags}}
+# {{theme.t.links.authors}}
 
-<AllTagsList :allPosts="data.posts" />
+<Authors :allPosts="data.posts" />
