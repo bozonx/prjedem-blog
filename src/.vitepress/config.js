@@ -16,6 +16,7 @@ export default {
   themeConfig: {
     ...configBase.themeConfig,
     showAuthorInPostList: false,
+    sidebarLogoSrc: "/img/sidebar-logo.webp",
   },
   head: [
     ...configBase.head,
